@@ -1,9 +1,4 @@
 body
 {
-    background-image: c:\Users\Admin\Documents\aljazeera moving img;
-}
-table
-{
-    border:1px;
-    width:499px;
+    background-image: url("aljazeera.gif");
 }
