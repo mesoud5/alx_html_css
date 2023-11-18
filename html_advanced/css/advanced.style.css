@@ -1,0 +1,25 @@
+body
+{
+ border:3px solid black;
+ height:100vh;
+ padding:15px;
+}
+header
+{
+    border:2px solid black;
+    height:40px;
+    padding:3px;
+}
+header div
+{
+    border:1px solid black;
+    height:5vh;
+    padding:2px;
+}
+header div div
+{
+    border:1px solid black;
+
+    height: 3vh;
+    width:150px;
+}
