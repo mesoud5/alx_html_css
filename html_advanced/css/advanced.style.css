@@ -54,5 +54,23 @@ height: 60vh;
 #hero-section div
 {
     border: 2px solid black;
-    height:25vh;
+    justify-content: center;
+    height:12vh;
+    display:flexbox;
+    
+}
+#hero-section div h1
+{
+    border: 2px solid black;
+    margin: 0;
+}
+#hero-section div p
+{
+    border:2px solid black;
+    margin:0;
+}
+#hero-section div button
+{
+    border:2px solid black;
+    margin:0;
 }
