@@ -49,9 +49,10 @@ border:3px solid black;
 display: flex;
 padding:15px;
 justify-content: center;
+height: 60vh;
 }
 #first-section div
 {
     border: 3px solid black;
-    
+
 }
