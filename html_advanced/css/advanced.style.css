@@ -51,7 +51,7 @@ padding:15px;
 justify-content: center;
 height: 60vh;
 }
-#hero-section div
+#first-section div 
 {
     border: 2px solid black;
     justify-content: center;
@@ -59,17 +59,17 @@ height: 60vh;
     display:flexbox;
     
 }
-#hero-section div h1
+#first-section div h1
 {
     border: 2px solid black;
     margin: 0;
 }
-#hero-section div p
+#first-section div p
 {
     border:2px solid black;
     margin:0;
 }
-#hero-section div button
+#first-sections div button
 {
     border:2px solid black;
     margin:0;
