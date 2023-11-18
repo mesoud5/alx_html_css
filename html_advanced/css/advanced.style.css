@@ -53,8 +53,8 @@ height: 60vh;
 }
 #hero-section div
 {
-    border: 4px solid black;
+    border: 2px solid black;
     width: 15%;
-    
+    height:25vh;
     
 }
