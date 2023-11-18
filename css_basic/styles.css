@@ -21,6 +21,7 @@ main aside
     overflow-y: auto;
 }
 
-body{
-    background-image: url(c:\Users\Admin\Documents\night.png);
+body
+{
+    background-color: blue;
 }
