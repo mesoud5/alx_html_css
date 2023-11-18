@@ -41,4 +41,15 @@ main
     border: 3px solid black;
     height:160vh;
     margin-top: 11px;
+    padding: 5px;
+}
+main section
+{
+border:3px solid black;
+height: 70vh;
+padding:15px;
+}
+#first-section div
+{
+ border:1px solid black
 }
