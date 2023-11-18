@@ -1,7 +1,7 @@
 body
 {
  border:3px solid black;
- height:100vh;
+ height:200vh;
  padding:15px;
 }
 header
@@ -15,11 +15,30 @@ header div
     border:1px solid black;
     height:5vh;
     padding:2px;
+    display: flex;
+    justify-content:space-between;
 }
-header div div
+header div div 
 {
-    border:1px solid black;
+    border:1px solid red;
 
-    height: 3vh;
+  
     width:150px;
+    border-radius: 5px;
+   
+
+    
+}
+header div div a
+{
+ border: 1px solid black;
+    width: inherit;
+     display: flex;
+     justify-content:center;
+}
+main
+{
+    border: 3px solid black;
+    height:160vh;
+    margin-top: 11px;
 }
