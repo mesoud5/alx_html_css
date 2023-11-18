@@ -2,6 +2,7 @@ body
 {
     display:flex;
     flex-direction:column;
+    background-image: url(c:\Users\Admin\Documents\night.png);
 }
 main
 {
@@ -19,3 +20,4 @@ main aside
     flex:1;
     overflow-y: auto;
 }
+
