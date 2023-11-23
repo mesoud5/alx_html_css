@@ -1,0 +1,1 @@
+we do this project copying the stater html and css given and do what the instruction says
