@@ -194,6 +194,10 @@
   .navbar-menu {
     float: right;
   }
+  .nav 
+  {
+    display: flex;
+  }
   
   .nav .nav-item + .nav-item{
     display: flex;
