@@ -43,6 +43,7 @@
     --section-footer-align: center;
   
     /** HEADER **/
+
     --header-padding: 4rem 0 0;
     --header-logo-position: relative;
     --header-logo-link-display: inline-block;
@@ -240,6 +241,11 @@
   
   /* Header
       ============================= */
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+  }
   
   .header {
     padding: var(--header-padding);
