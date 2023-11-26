@@ -10,6 +10,9 @@
    
    
 }
+body{
+    height: 500vh;
+}
 .header
 {
    background:url(headphone.jpg);
@@ -20,7 +23,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   color: #fff;
+   color: #000000;
 }
 .container
 {
@@ -76,9 +79,11 @@
 .button:hover
 {
 color:black;
+cursor: pointer;
 }
 .nav:hover{
 color: #ff6565;
+cursor:pointer;
 }
 
 .nav{
@@ -211,4 +216,24 @@ main{
       background-color: #ff6565;
 }
 
-   
+   .contact-us-section {
+     text-align: center;
+   }
+
+   label{
+    display: block;
+    margin-bottom: 3px;
+   }
+   .contact-button
+   {
+    background-color: #ff6565;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 30px;
+   }
+   button:hover
+   {
+    color: black;
+   }
