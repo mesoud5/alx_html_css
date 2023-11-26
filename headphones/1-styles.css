@@ -8,14 +8,14 @@
    margin:0;
    padding: 0;
    box-sizing: border-box;
-   color: #fff;
+   color:#fff;
 }
 .header
 {
-   background:url(headphones_hero_1.jpg);
+   background:url(headphone.jpg);
  
    position: relative;
-   height: 125vh;
+   height: 120vh;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -36,16 +36,13 @@
    position: absolute;
    right:480px;
 }
+
+
 .nav-item
 {
    display: inline-block;
    color: #fff;
-   margin-top: 20px;
-  
-}
-.nav-item a{
-
-
+   margin-top: 20px
 }
 .hero
 {
@@ -73,6 +70,15 @@
    border-radius: 20px;
    background-color: #ff6565;
    color: #fff;
+   
+}
+.nav:hover{
+color: #ff6565;
+}
+
+.nav{
+   text-decoration: none;
+align-items: space-between;
 }
 
 
@@ -82,7 +88,10 @@
 
 
 
-@media only screen and (max-width:600px) {
+
+
+
+@media only screen and (max-width:480px) {
    header{
       display: flex;
       margin: 0;
@@ -124,3 +133,4 @@
    }
 }
 
+/* what to do sectin */
