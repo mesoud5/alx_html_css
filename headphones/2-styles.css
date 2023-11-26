@@ -163,5 +163,36 @@ main{
    margin-bottom: 20px;
 }
 
+.our-container {
+   background-image: url(headphone.jpg);
+   color: #fff;
+   padding-top: 50px;
+   height: 70vh;
+}
+.h1 {
+   margin-bottom: 30px;
+}
+.headpentagon {
+   text-align: center;
+}
 
+.pentagon-container {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 75px;
+   margin-right: 65px;
+   
+}
 
+   
+
+.pentagon {
+   
+      border-style: solid;
+      transform: rotate(36deg);
+      color: #fff;
+      border-color: #ff6565 transparent transparent transparent;
+      background-color: #ff6565;
+}
+
+   
