@@ -157,6 +157,11 @@ color: #fff;
   height:40px;
   
    }
+
+   .footer{
+    font-size: 10px;
+    padding: 5px;
+   }
 }
 
 /* what to do sectin */
@@ -240,4 +245,30 @@ main{
    {
     color: black;
    }
-/* for the footer see 4-index.html */
+
+   footer
+   {
+    position:absolute;
+    top: 350vh;
+    bottom: 10;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+   }
+ .footer-container
+ {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+ }
+
+ .real-nav 
+ {
+    margin: 50px;
+ }
+
+ .last-one{
+    color: darkgray;
+ }
