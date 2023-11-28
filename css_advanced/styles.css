@@ -1,0 +1,53 @@
+
+
+header div
+{
+   
+    display: flex;
+    justify-content:space-between;
+}
+
+header div div a
+{
+
+     display: flex;
+     justify-content:center;
+}
+
+
+main section
+{
+
+display: flex;
+
+justify-content: center;
+}
+#first-section div 
+{
+   
+    justify-content: center;
+    
+    display:flexbox;
+    
+}
+
+.section-one{
+    background-image: url(cat.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-container{
+    display: flex;
+   
+    
+    
+}
+.header-logo{
+    padding: 30px;
+    margin-left: 100px;
+}
+.header-nav{
+    padding: 30px;
+    margin-right: 100px;
+    color: #fff;
+}
