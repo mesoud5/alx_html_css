@@ -32,9 +32,10 @@ justify-content: center;
 }
 
 .section-one{
-    background-image: url(cat.png);
+    background-image: url(grey.png);
     background-size: cover;
     background-repeat: no-repeat;
+    color: #fff;
 }
 .header-container{
     display: flex;
@@ -45,9 +46,155 @@ justify-content: center;
 .header-logo{
     padding: 30px;
     margin-left: 100px;
+    
 }
-.header-nav{
+nav{
     padding: 30px;
     margin-right: 100px;
+   
+}
+
+.about{
+    margin-right: 20px;
     color: #fff;
+}
+.contact{
+    margin-right: 20px;
+    color: #fff;
+}
+.register{
+    color: #fff;
+}
+
+.heading-1{
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+.words-3{
+   display: flex;
+   justify-content: space-around;
+
+}
+.word-1{
+    margin-left: 250px;
+  
+}
+.words-3{
+    margin-left: 80px;
+    margin-top: 0px;
+   
+}
+.word-3{
+    margin-right: 400px;
+   
+}
+
+
+button{
+margin-left: 400px;
+border-radius: 20px;
+height: 5vh;
+width: 25vh;
+background-color: blueviolet;
+color: #fff;
+
+}
+button:hover{
+    transform:rotate();
+}
+.head-2{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 150px;
+}
+.pros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.section-2{
+display: flex;
+
+justify-content: center;
+padding: 20px;
+background-color: blueviolet;
+}
+.quote{
+    margin-bottom: 5px;
+    
+
+}
+.div{
+    text-align: center;
+        position: relative;
+        top: -110px; 
+        left: -119px;
+}
+.weather{
+    margin-top: 3px;
+}
+.head-3{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 75px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.section-4{
+    background-color: black;
+}
+.head-4{
+ text-align: center;
+ font-size: 2rem;
+ color: #fff;
+ padding: 30px;
+}
+.smile{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+.button-4{
+    margin-top: 30px;
+    margin-bottom:20px ;
+    
+}
+.FAQ{
+    text-align: center;
+    font-size: 2rem;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    color: #fff;
+    background-color: black;
+    padding: 25px;
+}
+.logo-social{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+
+}
+
+.last{
+    text-align: center;
+    color: gray;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
 }
