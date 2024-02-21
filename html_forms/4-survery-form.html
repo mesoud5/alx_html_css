@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Survey form
+        </title>
+     <meta charset="utf-8"> 
+    </head>
+    <body>
+        <h1>survey</h1>
+       <form>
+        <fieldset>
+            <legend>info</legend>
+            <label for="username">name</label>
+            <input type="text" id="username" name="username" placeholder="enter your name" required/>
+            <br>
+            <label for="email">email address</label>
+            <input type="email" id="email" name="useremail" placeholder="enter your email" required/>
+            <br>
+            <select required>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Green</option>
+            </select>
+            <br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Date and time</legend>
+            <label for="Date">Select date</label>
+        <input type="date" id="Date" name="date"  required/>
+        <br>
+        <label for="Time">Select time</label>
+        <input type="time" id="Time" name="time" required/>
+        <br>
+        </fieldset>
+        
+        <button>submit</button>  
+    </form>
+
+    </body>
+</html>
